@@ -18,7 +18,9 @@
 					<p>
 						ACM's primary form of communication is Slack (acm-utsa.slack.com).
 					</p>
-					[add to slack button]
+					<a href="http://acm-utsa.slack.com">
+						<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
+					</a>
 					<p>
 						For any general inquiries, comments, questions, or any other business, please
 						contact us at <a href="mailto:acm.utsa@gmail.com">acm.utsa@gmail.com</a>.
