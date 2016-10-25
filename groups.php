@@ -59,6 +59,7 @@
 						</p>
 						<p>
 							For more information reach out to us to see how you can get involved.
+						</p>
 					</div>
 					<div class="group">
 						<h2>ACM-ICPC</h2>
