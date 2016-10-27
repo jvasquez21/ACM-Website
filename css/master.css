@@ -2,6 +2,9 @@
 	Global styles
 ****************************/
 * {
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
 	transition: all .2s ease;
 }
 
@@ -169,7 +172,7 @@ body {
 	/*padding: 54px 30px 20px 30px; /* min padding-top:54px; */
 	min-height: 500px; /* for demonstration */
 	/* box-shadow: 0px 0px 15px -10px #000; /* for demonstration */
-	font-size: 18px;
+	font-size: 20px;
 }
 /* width < 768px (mobile) */
 @media (max-width: 767px) {
@@ -177,7 +180,7 @@ body {
 		margin-top: 50px;
 		padding-top: 10px;
 	}
-	#content div.row div.col-sm-12 h1 {
+	#content>div.row>div.col-sm-12>h1 {
 		margin: 15px;
 	}
 }
@@ -196,9 +199,9 @@ body {
 	padding: 0px;
 }
 
-button, input[type=button], input[type=submit], .strip-button{
+button, input[type=button], input[type=submit], .stripe-button{
 	position: relative;
-	top: 0px;
+	top: 0px; /* necessary for smooth animations */
 	box-shadow: 0px 0px 0px #000000;
 	border-style: none;
 	background-color: #1a4a86;
@@ -208,7 +211,7 @@ button, input[type=button], input[type=submit], .strip-button{
 	border-radius: 2px;
 }
 
-button:hover, input[type=button]:hover, input[type=submit]:hover, .strip-button:hover{
+button:hover, input[type=button]:hover, input[type=submit]:hover, .stripe-button:hover{
 	top: -3px;
 	box-shadow: 0px 3px 10px -3px #000000;
 	background-color: #1a4a86;
@@ -217,6 +220,7 @@ button:hover, input[type=button]:hover, input[type=submit]:hover, .strip-button:
 
 input[type=image].slack-button {
 	position: relative;
+	top: 0px; /* necessary for smooth animations */
 	box-shadow: 0px 0px 0px #000000;
 	border-style: none;
 	width: 143px;

@@ -47,20 +47,20 @@
 					</div>
 					<div>
 					</div>
-					<div class="row" style="padding-top:100px;">
+					<div class="row section-container" style="margin-top:100px;">
 						<div class="col-sm-1">
 						</div>
 						<div class="col-sm-7" style="font-size:24px;">
 							<p>
 								We think it's awesome to have snacks at meetings. Prizes, travel reimbursements, t-shirts,
-								and a myriad of other benefits provided to ACM members are all funded by our dues. We believe
-								that it's important to give back to members, so we take every opportunity to make ACM awesome.
+								and other cool benefits for ACM members are all funded by dues. Dues are just $10 per semester. We believe
+								that it's important to give back to members, so we use our funds to make ACM more awesome.
 							</p>
 						</div>
 						<div class="col-sm-1">
 						</div>
 						<div class="col-sm-3" style="padding-top:60px;text-align:center;">
-							<input type="button" value="Pay Dues ($10.00)" id="fake-stripe-button" />
+							<input type="button" value="Pay Dues" id="fake-stripe-button" />
 						</div>
 					</div>
 				</div>
