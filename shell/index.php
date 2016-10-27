@@ -47,7 +47,7 @@
 			var commandHistory = [];
 			var historyIndex = -1;
 			// use the filesystem object to simulate the real filesystem
-			var filesystem = JSON.parse('{"type":"folder","name":"/","address":"/","children":[{"type":"file","name":"about.php","address":"/about.php"},{"type":"file","name":"calendar.php","address":"/calendar.php"},{"type":"file","name":"contact.php","address":"/contact.php"},{"type":"file","name":"dues.php","address":"/dues.php"},{"type":"file","name":"favicon.ico","address":"/favicon.ico"},{"type":"file","name":"groups.php","address":"/groups.php"},{"type":"file","name":"index.php","address":"/index.php"},{"type":"file","name":"join.php","address":"/join.php"},{"type":"file","name":"officers.php","address":"/officers.php"},{"type":"folder","name":"images","address":"/images","children":[{"type":"folder","name":"icons","address":"/images/icons","children":[{"type":"file","name":"add-to-slack.png","address":"/images/icons/add-to-slack.png"}]},{"type":"file","name":"logo-bordered.png","address":"/images/logo-bordered.png"},{"type":"file","name":"logo.png","address":"/images/logo.png"},{"type":"folder","name":"officer_photos","address":"/images/officer_photos","children":[{"type":"file","name":"bennett.jpg","address":"/images/officer_photos/bennett.jpg"},{"type":"file","name":"default-pimg.jpg","address":"/images/officer_photos/default-pimg.jpg"}]}]},{"type":"folder","name":"css","address":"/css","children":[{"type":"file","name":"index.css","address":"/css/index.css"},{"type":"file","name":"index.pyp","address":"/css/index.pyp"},{"type":"file","name":"master.css","address":"/css/master.css"}]}]}');
+			var filesystem = JSON.parse('{"type":"folder","name":"/","address":"/","children":[{"type":"file","name":"about.php","address":"/about.php"},{"type":"file","name":"calendar.php","address":"/calendar.php"},{"type":"file","name":"contact.php","address":"/contact.php"},{"type":"folder","name":"css","address":"/css","children":[{"type":"file","name":"index.css","address":"/css/index.css"},{"type":"file","name":"index.pyp","address":"/css/index.pyp"},{"type":"file","name":"master.css","address":"/css/master.css"}]},{"type":"file","name":"dues.php","address":"/dues.php"},{"type":"file","name":"favicon.ico","address":"/favicon.ico"},{"type":"file","name":"groups.php","address":"/groups.php"},{"type":"folder","name":"images","address":"/images","children":[{"type":"folder","name":"icons","address":"/images/icons","children":[{"type":"file","name":"add-to-slack.png","address":"/images/icons/add-to-slack.png"}]},{"type":"file","name":"logo-bordered.png","address":"/images/logo-bordered.png"},{"type":"file","name":"logo.png","address":"/images/logo.png"},{"type":"folder","name":"officer_photos","address":"/images/officer_photos","children":[{"type":"file","name":"andrew_bennett.jpg","address":"/images/officer_photos/andrew_bennett.jpg"},{"type":"file","name":"andrew_hutton.jpg","address":"/images/officer_photos/andrew_hutton.jpg"},{"type":"file","name":"andrew_sanetra.jpg","address":"/images/officer_photos/andrew_sanetra.jpg"},{"type":"file","name":"chris_doege.jpg","address":"/images/officer_photos/chris_doege.jpg"},{"type":"file","name":"default.jpg","address":"/images/officer_photos/default.jpg"},{"type":"file","name":"diego_romero.jpg","address":"/images/officer_photos/diego_romero.jpg"},{"type":"file","name":"jason_blig.jpg","address":"/images/officer_photos/jason_blig.jpg"},{"type":"file","name":"nishant_grover.jpg","address":"/images/officer_photos/nishant_grover.jpg"},{"type":"file","name":"shane_becker.jpg","address":"/images/officer_photos/shane_becker.jpg"}]}]},{"type":"file","name":"index.php","address":"/index.php"},{"type":"file","name":"join.php","address":"/join.php"},{"type":"file","name":"officers.php","address":"/officers.php"}]}');
 			path = [filesystem];
 			/*
 			var filesystem = JSON.parse('{
@@ -68,6 +68,25 @@
 						"name": "contact.php",
 						"address": "/contact.php"
 					}, {
+						"type": "folder",
+						"name": "css",
+						"address": "/css",
+						"children": [
+							{
+								"type": "file",
+								"name": "index.css",
+								"address": "/css/index.css"
+							}, {
+								"type": "file",
+								"name": "index.pyp",
+								"address": "/css/index.pyp"
+							}, {
+								"type": "file",
+								"name": "master.css",
+								"address": "/css/master.css"
+							}
+						]
+					}, {
 						"type": "file",
 						"name": "dues.php",
 						"address": "/dues.php"
@@ -79,18 +98,6 @@
 						"type": "file",
 						"name": "groups.php",
 						"address": "/groups.php"
-					}, {
-						"type": "file",
-						"name": "index.php",
-						"address": "/index.php"
-					}, {
-						"type": "file",
-						"name": "join.php",
-						"address": "/join.php"
-					}, {
-						"type": "file",
-						"name": "officers.php",
-						"address": "/officers.php"
 					}, {
 						"type": "folder",
 						"name": "images",
@@ -122,35 +129,56 @@
 								"children": [
 									{
 										"type": "file",
-										"name": "bennett.jpg",
-										"address": "/images/officer_photos/bennett.jpg"
+										"name": "andrew_bennett.jpg",
+										"address": "/images/officer_photos/andrew_bennett.jpg"
 									}, {
 										"type": "file",
-										"name": "default-pimg.jpg",
-										"address": "/images/officer_photos/default-pimg.jpg"
+										"name": "andrew_hutton.jpg",
+										"address": "/images/officer_photos/andrew_hutton.jpg"
+									}, {
+										"type": "file",
+										"name": "andrew_sanetra.jpg",
+										"address": "/images/officer_photos/andrew_sanetra.jpg"
+									}, {
+										"type": "file",
+										"name": "chris_doege.jpg",
+										"address": "/images/officer_photos/chris_doege.jpg"
+									}, {
+										"type": "file",
+										"name": "default.jpg",
+										"address": "/images/officer_photos/default.jpg"
+									}, {
+										"type": "file",
+										"name": "diego_romero.jpg",
+										"address": "/images/officer_photos/diego_romero.jpg"
+									}, {
+										"type": "file",
+										"name": "jason_blig.jpg",
+										"address": "/images/officer_photos/jason_blig.jpg"
+									}, {
+										"type": "file",
+										"name": "nishant_grover.jpg",
+										"address": "/images/officer_photos/nishant_grover.jpg"
+									}, {
+										"type": "file",
+										"name": "shane_becker.jpg",
+										"address": "/images/officer_photos/shane_becker.jpg"
 									}
 								]
 							}
 						]
 					}, {
-						"type": "folder",
-						"name": "css",
-						"address": "/css",
-						"children": [
-							{
-								"type": "file",
-								"name": "index.css",
-								"address": "/css/index.css"
-							}, {
-								"type": "file",
-								"name": "index.pyp",
-								"address": "/css/index.pyp"
-							}, {
-								"type": "file",
-								"name": "master.css",
-								"address": "/css/master.css"
-							}
-						]
+						"type": "file",
+						"name": "index.php",
+						"address": "/index.php"
+					}, {
+						"type": "file",
+						"name": "join.php",
+						"address": "/join.php"
+					}, {
+						"type": "file",
+						"name": "officers.php",
+						"address": "/officers.php"
 					}
 				]
 			}');
@@ -198,10 +226,10 @@
 						var child_index = get_child_index(dir, temp_path[i]);
 						if(child_index == -1){
 							if(pwd_copy == "/"){
-								$("#stdout").html(pwd_copy + temp_path[i] + " does not exist");
+								$("#stdout").html("'" + pwd_copy + temp_path[i] + "' does not exist");
 							}
 							else{
-								$("#stdout").html(pwd_copy + "/" + temp_path[i] + " does not exist");
+								$("#stdout").html("'" + pwd_copy + "/" + temp_path[i] + "' does not exist");
 							}
 							i = path_copy.length;
 						}
@@ -233,6 +261,7 @@
 					window.commandCancelled = (keyCode == 67 || keyCode == 99) && e.ctrlKey;
 					if(keyCode == 38){
 						// up arrow pressed
+						e.preventDefault();
 						if(historyIndex < 0){
 							historyIndex = commandHistory.length - 1;
 						}
@@ -246,6 +275,7 @@
 					}
 					else if(keyCode == 40){
 						// down arrow pressed
+						e.preventDefault();
 						if(historyIndex < commandHistory.length){
 							historyIndex++;
 						}
@@ -306,14 +336,14 @@
 							if($.inArray(inputCommand, disallowedCommands) != -1){
 								// insufficeint privileges
 								// must use sudo
-								$("#stdout").html("Insufficient privileges: requires root access");
+								$("#stdout").html("insufficient privileges: requires root access");
 							}
 							else if($.inArray(inputCommand, supportedCommands) != -1){
 								switch(inputCommand){
 									case "cd":
 										// switch to directory
 										if(argc < 2){
-											$("#stdout").html("cd expects an argument");
+											$("#stdout").html("cd expects a directory");
 										}
 										else{
 											if(argv[1].length > 1 && argv[1].charAt([argv[1].length - 1]) == '/'){
@@ -323,6 +353,13 @@
 												pwd = "/";
 												path = [];
 												path[0] = filesystem;
+												window.processing = false;
+												prepare_stdin();
+												return;
+											}
+											var item = get_item(argv[1]);
+											if(item.type != "folder"){
+												$("#stdout").html("'" + argv[1] + "' is not a directory");
 												window.processing = false;
 												prepare_stdin();
 												return;
@@ -355,10 +392,10 @@
 													var child_index = get_child_index(dir, temp_path[i]);
 													if(child_index == -1){
 														if(pwd == "/"){
-															$("#stdout").html(pwd + temp_path[i] + " does not exist");
+															$("#stdout").html("'" + pwd + temp_path[i] + "' does not exist");
 														}
 														else{
-															$("#stdout").html(pwd + "/" + temp_path[i] + " does not exist");
+															$("#stdout").html("'" + pwd + "/" + temp_path[i] + "' does not exist");
 														}
 														i = temp_path.length;
 													}
@@ -407,25 +444,30 @@
 										}
 										var item = get_item(argv[1]);
 										if(item){
-											var address = window.location.href.split("/").slice(0, -2).join("/") + item.address;
-											$.ajax({
-												method: "post",
-												url: "fetch_html.php",
-												data: {
-													target_url: address
-												},
-												success: function(response){
-													$("#stdout").html(response);
-													window.setTimeout(function(){
-														prepare_stdin();
-													}, 100);
-													window.processing = false;
-													return;
-												}
-											});
+											if(item.type == "file"){
+												var address = window.location.href.split("/").slice(0, -2).join("/") + item.address;
+												$.ajax({
+													method: "post",
+													url: "fetch_html.php",
+													data: {
+														target_url: address
+													},
+													success: function(response){
+														$("#stdout").html(response);
+														window.setTimeout(function(){
+															prepare_stdin();
+														}, 100);
+														window.processing = false;
+														return;
+													}
+												});
+											}
+											else{
+												$("#stdout").html("'"+argv[1]+"' is not a file");
+											}
 										}
 										else{
-											$("#stdout").html(argv[1] + " does not exist");
+											$("#stdout").html("'"+argv[1] + "' does not exist");
 										}
 									break;
 									case "vi":
@@ -441,7 +483,7 @@
 											window.open(url);
 										}
 										else{
-											$("#stdout").html(argv[1] + " does not exist");
+											$("#stdout").html("'"+argv[1] + "' does not exist");
 										}
 									break;
 									case "exit":

@@ -16,10 +16,10 @@
 					<div class="row section-container">
 						<div class="col-sm-12">
 							<h1>
-								Upcoming Events
+								Meetings
 							</h1>
 							<p>
-								Meeting on ...
+								Meetings are on Thursdays at 5:00pm in NPB 4.140 at UTSA's main campus. We also have special events that we share on <a href="#slack-container">Slack</a> and post to our <a href="calender">calendar</a>.
 							</p>
 						</div>
 					</div>
@@ -33,17 +33,24 @@
 							</p>
 						</div>
 					</div>
-					<div class="row section-container" style="display:table;">
+					<div class="row section-container" style="display:table;" id="slack-container">
 						<div class="col-sm-8">
 							<h1 style="text-align: center;margin: 0px 0px 20px 0px;padding: 0px;">
 								Slack
 							</h1>
 							<p>
-								Want to share notes from class? Want to talk or hear about the latest technologies? From app development to unix security, ACM has people who share your interests. The best way to get connected with other students and hear about upcoming events, is through <a href="http://acm-utsa.slack.com">Slack</a>. We use Slack to share information about internships, events, and opportunities at UTSA and around town. Members can recieve an invitation to join by sending an email to <a href="mailto:acm.utsa@gmail.com">acm.utsa@gmail.com</a> or by contacting one of our <a href="officers.php">officers</a>.
+								Want to share notes from class? Want to hear about events on campus or talk about the latest and greatest stuff in technology? From app development to unix security, ACM has people who share your interests. The best way to get connected with other students and hear about upcoming events, is through <a href="http://acm-utsa.slack.com">Slack</a>. We use Slack to share information about internships, events, and opportunities at UTSA and around town. Members can recieve an invitation to join by sending an email to <a href="mailto:acm.utsa@gmail.com">acm.utsa@gmail.com</a> or by contacting one of our <a href="officers.php">officers</a>.
 							</p>
 						</div>
-						<div class="col-sm-4">
-							<div style="margin:40px 0px;text-align: center;">
+						<div class="col-sm-4 hidden-xs">
+							<div style="margin:120px 0px 0px 0px;text-align: center;">
+								<a href="http://acm-utsa.slack.com">
+									<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
+								</a>
+							</div>
+						</div>
+						<div class="col-sm-4 hidden-sm hidden-md hidden-lg hidden-xl">
+							<div style="margin:40px 0px 0px 0px;text-align: center;">
 								<a href="http://acm-utsa.slack.com">
 									<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
 								</a>

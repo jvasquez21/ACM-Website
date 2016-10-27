@@ -19,14 +19,14 @@
 								About ACM UTSA
 							</h1>
 		                    <p>
-								We at The Association for Computing Machinery at UTSA are dedicated
-								to giving our members and students the opportunity to gain experience,
+								The Association for Computing Machinery at UTSA is dedicated
+								to giving members and students the opportunity to gain experience,
 								network, socialize, learn, and grow outside of the classroom in all fields
 								of technology and computing.
 		                    </p>
 							<p>
-								We are first and foremost an official UTSA student organization, and an
-								official university chapter of the national <a href="http://www.acm.org">Association for Computing Machinery</a>.
+								We are first and foremost an official UTSA student organization, an
+								official university chapter of the national <a href="http://www.acm.org">Association for Computing Machinery</a>, and a non-profit organization.
 							</p>
 						</div>
 					</div>
@@ -39,7 +39,7 @@
 								The UTSA chapter of ACM was founded by Danny Tsang and Kurt King in the Fall of 2015,
 								who saw the need for a student organization for nearly one thousand computer science
 								students. Since then, the chapter has grown at a remarkable pace into a huge organization
-								that provides a valuable social environment for a once-fragmented group.
+								that provides a valuable social environment for students in computer science and other majors.
 							</p>
 						</div>
 					</div>
