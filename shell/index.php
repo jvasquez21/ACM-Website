@@ -33,14 +33,6 @@
 			.help-description{
 				display:inline-block;
 			}
-			#input-trigger{
-				opacity:0.0;
-				position:fixed;
-				top:0px;
-				bottom:0px;
-				left:0px;
-				right:0px;
-			}
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script type="text/javascript">
@@ -264,10 +256,6 @@
 			}
 			
 			$(document).ready(function(){
-				$("input-trigger").on("click", function(e){
-					e.preventDefault();
-					$("input-trigger").blur();
-				});
 				$(document).on("keydown", function(e){
 					var keyCode = e.which || e.keyCode || 0;
 					window.commandCancelled = (keyCode == 67 || keyCode == 99) && e.ctrlKey;
@@ -564,6 +552,5 @@
 				</div>
 			</div>
 		</div>
-		<textarea id="input-trigger"></textarea>
 	</body>
 </html>
