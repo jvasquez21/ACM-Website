@@ -98,8 +98,6 @@ body {
 	#menu-container{
 		position: absolute;
 	}
-
-
 }
 
 /****************************
@@ -179,6 +177,9 @@ body {
 		margin-top: 50px;
 		padding-top: 10px;
 	}
+	#content div.row div.col-sm-12 h1 {
+		margin: 15px;
+	}
 }
 
 .section-container {
@@ -187,6 +188,12 @@ body {
 	box-shadow: 0px 1px 11px -3px;
 	border-radius: 3px;
 	background-color: #ffffff;
+}
+
+.nav > h1 {
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+	padding: 0px;
 }
 
 button, input[type=button], input[type=submit], .strip-button{
