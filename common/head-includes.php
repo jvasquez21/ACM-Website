@@ -9,9 +9,16 @@
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
+		$("#shell-link").on("mouseenter", function(){
+			$("#shell-link").css("background-color", "#296097");
+		});
 		$("#shell-link").on("click", function(e){
 			e.preventDefault();
 			var new_window = window.open("shell", "_blank", "menubar=1,resizable=0,width=570,height=320");
+			$("#shell-link").css("background-color", $("#main-menu-container").css("background-color"));
+		});
+		$("#shell-link").on("mouseleave", function(e){
+			$("#shell-link").css("background-color", $("#main-menu-container").css("background-color"));
 		});
 	});
 </script>
