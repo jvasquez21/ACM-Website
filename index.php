@@ -45,7 +45,7 @@
 						<div class="col-sm-4">
 							<div style="margin:40px 0px;text-align: center;">
 								<a href="http://acm-utsa.slack.com">
-									<input type="button" style="background:url('images/icons/add-to-slack.png');width:163px;background-size:cover;border-radius:5px;" />
+									<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
 								</a>
 							</div>
 						</div>
