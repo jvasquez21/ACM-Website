@@ -238,3 +238,13 @@ input[type=image].slack-button:hover {
 #footer {
 	padding: 20px 30px;
 }
+
+.footer-social {
+	color: #204972;
+	margin: 0px 5px;
+	text-decoration: none;
+}
+
+.footer-social :hover {
+	color: #87c115;
+}

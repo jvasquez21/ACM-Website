@@ -14,6 +14,9 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<!-- content here! -->
+					<h1 class="content-title">
+						Dues
+					</h1>
 					<?php
 						require_once('./config.php');
 						$month = date('n', time());
@@ -47,7 +50,7 @@
 					</div>
 					<div>
 					</div>
-					<div class="row section-container" style="margin-top:100px;">
+					<div class="row section-container" style="margin-top:50px;">
 						<div class="col-sm-1">
 						</div>
 						<div class="col-sm-7" style="font-size:24px;">
