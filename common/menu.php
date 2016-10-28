@@ -12,6 +12,13 @@
 					<a class="navbar-brand" href=".">
 						<img id="logo" src="images/logo-bordered.png" alt="The Assocation for Computing Machinery - UTSA Chapter">
 					</a>
+					<h1>
+						Association for
+						<br />
+						Computing
+						<br />
+						Machinery
+					</h1>
 				</div> <!-- .navbar-header -->
 				<div class="collapse navbar-collapse" id="nav-collapse">
 					<ul class="nav navbar-nav navbar-right">

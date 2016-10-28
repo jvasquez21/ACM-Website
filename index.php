@@ -13,6 +13,10 @@
 		<div id="content" class="container">
 			<div class="row">
 				<div class="col-sm-12">
+					<div class="row section-container" id="home-page-rowdyhacks-image">
+						<div class="col-sm-12">
+						</div>
+					</div>
 					<div class="row section-container">
 						<div class="col-sm-12">
 							<h1>
@@ -23,19 +27,9 @@
 							</p>
 						</div>
 					</div>
-					<div class="row section-container">
-						<div class="col-sm-12">
-							<h1>
-								Announcements
-							</h1>
-							<p>
-								Remember to pay your dues!
-							</p>
-						</div>
-					</div>
 					<div class="row section-container" style="display:table;" id="slack-container">
 						<div class="col-sm-8">
-							<h1 style="text-align: center;margin: 0px 0px 20px 0px;padding: 0px;">
+							<h1>
 								Slack
 							</h1>
 							<p>
