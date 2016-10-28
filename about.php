@@ -59,6 +59,10 @@
 		                    </ul>
 						</div>
 					</div>
+					<div class="row section-container" id="about-page-tamuhacks-image">
+						<div class="col-sm-12">
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

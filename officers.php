@@ -115,9 +115,9 @@
 							<h4 class="officer-card-name">
 								Shane Becker
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									utsa.acm@gmail.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -131,9 +131,9 @@
 							<h4 class="officer-card-name">
 								Nishant Grover
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -147,9 +147,9 @@
 							<h4 class="officer-card-name">
 								Andrew Hutton
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -163,9 +163,9 @@
 							<h4 class="officer-card-name">
 								Jason Blig
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -195,9 +195,9 @@
 							<h4 class="officer-card-name">
 								Diego Romero
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -211,9 +211,9 @@
 							<h4 class="officer-card-name">
 								Andrew Sanetra
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -227,9 +227,9 @@
 							<h4 class="officer-card-name">
 								Chris Doege
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -243,9 +243,9 @@
 							<h4 class="officer-card-name">
 								First Last
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -259,9 +259,9 @@
 							<h4 class="officer-card-name">
 								First Last
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div>
@@ -275,9 +275,9 @@
 							<h4 class="officer-card-name">
 								First Last
 							</h3>
-							<a href="mailto:utsa.acm@gmail.com">
+							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
-									user@example.com
+									acm.utsa@gmail.com
 								</p>
 							</a>
 						</div> -->

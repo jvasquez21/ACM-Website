@@ -49,10 +49,7 @@
 						<div class="col-sm-12">
 							<h2>ACM-W</h2>
 							<p>
-								The Association for Computing Machinery &mdash; Women chapter is
-								ACM's sister organization dedicated to the advancement of women
-								and other underrepresented groups in the field of computer
-								science.
+								ACM-W aims to create an engaging academic, professional, and social network for women in technology. Our purpose is to connect students with leaders and encourage them to pursue career opportunities in computing fields and to mentor for academic and professional success.
 							</p>
 						</div>
 					</div>
