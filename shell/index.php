@@ -33,6 +33,10 @@
 			.help-description{
 				display:inline-block;
 			}
+			#shell-window{
+				min-height:100%;
+				width:100%;
+			}
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script type="text/javascript">
@@ -41,6 +45,7 @@
 			var supportedCommands = ["cd", "ls", "cat", "vi", "vim", "open", "exit", "help", "pwd", "sudo", "su"];
 			window.processing = false; // indicates whether a command is currently being processed
 			window.commandCancelled = false;
+			window.session_terminated = false;
 			// address of the current directory
 			var pwd = "/";
 			var path = [];
@@ -256,6 +261,17 @@
 			}
 			
 			$(document).ready(function(){
+				document.getElementById('fake-input').focus();
+				$("#fake-input").on("keydown", function(e){
+					var keyCode = e.which || e.keyCode || 0;
+					if(keyCode == 8){
+						// backspace key pressed
+						$("#stdin").text($("#stdin").text().slice(0, -2));
+						window.setTimeout(function(){
+							$("#stdin").append('_');
+						}, 0);
+					}
+				});
 				$(document).on("keydown", function(e){
 					var keyCode = e.which || e.keyCode || 0;
 					window.commandCancelled = (keyCode == 67 || keyCode == 99) && e.ctrlKey;
@@ -281,7 +297,7 @@
 						}
 						$("#stdin").text(commandHistory[historyIndex]);
 					}
-					else if((keyCode == 67 || keyCode == 99) && e.ctrlKey){
+					else if((keyCode == 67 || keyCode == 99) && e.ctrlKey && !window.session_terminated){
 						if($("#stdin").text().slice(-1) == '_'){
 							// will replace '_' with '^C' at end of stdin
 							// TODO fix the case where the user typed '_' at the end of stdin
@@ -296,12 +312,8 @@
 							window.commandCancelled = false;
 						}, 100);
 					}
-					else if(keyCode == 8){
-						// backspace key pressed
-						$("#stdin").text($("#stdin").text().slice(0, -1));
-						window.setTimeout(function(){
-							$("#stdin").append('_');
-						}, 0);
+					else{
+						//alert(keyCode);
 					}
 				});
 				$(document).on("keypress", function(e){
@@ -324,7 +336,7 @@
 							}
 							window.processing = true;
 							var input = $("#stdin").text();
-							commandHistory.push(input);
+							commandHistory.push(input + "_");
 							historyIndex = -1;
 							var argv = input.split(/\s+/);
 							var argc = argv.length;
@@ -488,11 +500,14 @@
 									break;
 									case "exit":
 										// close the tab
+										$("#stdout").html("terminating session...<br /><br />session terminated");
+										window.session_terminated = true;
 										window.close();
+										return;
 									break;
 									case "help":
 										// prints help menu
-										$("#stdout").html("<div class=\"help-row\"><div class=\"help-item\">cd [dir]</div><div class=\"help-description\">Goes to the specified directory</div></div> <div class=\"help-row\"><div class=\"help-item\">pwd</div><div class=\"help-description\">Prints the path of the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">ls</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">cat [file]</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">vi [file]</div><div class=\"help-description\">Opens a file for editing</div></div> <div class=\"help-row\"><div class=\"help-item\">open [item]</div><div class=\"help-description\">Opens an item in the browser</div></div> <div class=\"help-row\"><div class=\"help-item\">help</div><div class=\"help-description\">Prints commands and options</div></div> <div class=\"help-row\"><div class=\"help-item\">sudo [command]</div><div class=\"help-description\">Executes the command as root</div></div> <!--<div class=\"help-row\"><div class=\"help-item\"></div><div class=\"help-description\"></div></div> -->");
+										$("#stdout").html("<div class=\"help-row\"><div class=\"help-item\">cd [dir]</div><div class=\"help-description\">Goes to the specified directory</div></div> <div class=\"help-row\"><div class=\"help-item\">pwd</div><div class=\"help-description\">Prints the path of the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">ls</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">cat [file]</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">vi [file]</div><div class=\"help-description\">Opens a file for editing</div></div> <div class=\"help-row\"><div class=\"help-item\">open [item]</div><div class=\"help-description\">Opens an item in the browser</div></div> <div class=\"help-row\"><div class=\"help-item\">help</div><div class=\"help-description\">Prints commands and options</div></div> <div class=\"help-row\"><div class=\"help-item\">sudo [command]</div><div class=\"help-description\">Executes the command as root</div></div><div class=\"help-row\"><div class=\"help-item\">exit</div><div class=\"help-description\">Exits the session</div></div> <!--<div class=\"help-row\"><div class=\"help-item\"></div><div class=\"help-description\"></div></div> -->");
 									break;
 									case "sudo":
 									case "su":
@@ -539,7 +554,9 @@
 		</script>
 	</head>
 	<body>
-		<div id="shell-window">
+		<input type="text" id="fake-input" style="position:absolute;top:-1000px;opacity:0.0;" />
+		<div id="shell-window" onclick="document.getElementById('fake-input').focus();">
+			Type 'help' for help
 			<div class="command-block">
 				<div class="ps1" id="ps1">
 					<!-- pwd -->
