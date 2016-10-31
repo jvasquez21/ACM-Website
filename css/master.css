@@ -62,6 +62,11 @@ body {
 	top:0px;
 	left:0px;
 	right:0px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
 }
 
 .nav>li>a{
