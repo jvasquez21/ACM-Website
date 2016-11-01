@@ -62,8 +62,16 @@
 						</div>
 						<div class="col-sm-1">
 						</div>
-						<div class="col-sm-3" style="padding-top:60px;text-align:center;">
-							<input type="button" value="Pay Dues" id="fake-stripe-button" />
+						<div class="col-sm-3" style="padding-top:40px;text-align:center;">
+							<h3>
+								Coming Soon
+							</h3>
+							<div style="background-color:grey;color:white;padding:5px;border-radius:3px;display:inline-block;cursor:default;">
+								Pay Dues
+							</div>
+							<!--
+								<input type="button" value="Pay Dues" id="fake-stripe-button" />
+							-->
 						</div>
 					</div>
 				</div>

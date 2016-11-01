@@ -302,6 +302,7 @@
 							// will replace '_' with '^C' at end of stdin
 							// TODO fix the case where the user typed '_' at the end of stdin
 							$("#stdin").text($("#stdin").text().slice(0, -1));
+							window.typingPassword = false;
 							$("#stdin").append('^C');
 						}
 						else{
