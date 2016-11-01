@@ -555,7 +555,7 @@
 		</script>
 	</head>
 	<body>
-		<input type="text" id="fake-input" style="position:absolute;top:-1000px;opacity:0.0;" />
+		<input type="text" id="fake-input" style="position:fixed;bottom:-1000px;opacity:0.0;" />
 		<div id="shell-window" onclick="document.getElementById('fake-input').focus();">
 			Type 'help' for help
 			<div class="command-block">
