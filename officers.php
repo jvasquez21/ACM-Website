@@ -147,9 +147,9 @@
 							<h4 class="officer-card-name">
 								Andrew Hutton
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
+							<a href="http://hutton.tech">
 								<p class="officer-card-email">
-									acm.utsa@gmail.com
+									hutton.tech
 								</p>
 							</a>
 						</div>
@@ -163,11 +163,9 @@
 							<h4 class="officer-card-name">
 								Jason Blig
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
-									acm.utsa@gmail.com
-								</p>
-							</a>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -195,11 +193,9 @@
 							<h4 class="officer-card-name">
 								Diego Romero
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
-									acm.utsa@gmail.com
-								</p>
-							</a>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -211,11 +207,9 @@
 							<h4 class="officer-card-name">
 								Andrew Sanetra
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
-									acm.utsa@gmail.com
-								</p>
-							</a>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -227,9 +221,9 @@
 							<h4 class="officer-card-name">
 								Chris Doege
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
+							<a href="http://doege.pw">
 								<p class="officer-card-email">
-									acm.utsa@gmail.com
+									doege.pw
 								</p>
 							</a>
 						</div>
