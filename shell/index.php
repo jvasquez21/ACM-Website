@@ -42,7 +42,7 @@
 		<script type="text/javascript">
 			var disallowedCommands = ["rm", "srm", "mkdir", "touch", "ftp", "ssh", "mv", "cp", "chmod", "chown", "mysql", "tar"];
 			// "su" || "sudo"
-			var supportedCommands = ["cd", "ls", "cat", "vi", "vim", "open", "exit", "help", "pwd", "sudo", "su"];
+			var supportedCommands = ["cd", "ls", "cat", "clear", "vi", "vim", "open", "exit", "help", "pwd", "sudo", "su"];
 			window.processing = false; // indicates whether a command is currently being processed
 			window.commandCancelled = false;
 			window.session_terminated = false;
@@ -261,6 +261,9 @@
 			}
 			
 			$(document).ready(function(){
+				$(window).resize(function(){
+					$(".clear-block").height($(window).height());
+				});
 				document.getElementById('fake-input').focus();
 				$("#fake-input").on("keydown", function(e){
 					var keyCode = e.which || e.keyCode || 0;
@@ -425,6 +428,10 @@
 											}
 										}
 									break;
+									case "clear":
+										$("#stdout").html("<div class=\"clear-block\"></div>");
+										$(".clear-block").innerHeight($(window).height());
+									break;
 									case "pwd":
 										// prints current directory
 										$("#stdout").html(pwd);
@@ -508,7 +515,7 @@
 									break;
 									case "help":
 										// prints help menu
-										$("#stdout").html("<div class=\"help-row\"><div class=\"help-item\">cd [dir]</div><div class=\"help-description\">Goes to the specified directory</div></div> <div class=\"help-row\"><div class=\"help-item\">pwd</div><div class=\"help-description\">Prints the path of the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">ls</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">cat [file]</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">vi [file]</div><div class=\"help-description\">Opens a file for editing</div></div> <div class=\"help-row\"><div class=\"help-item\">open [item]</div><div class=\"help-description\">Opens an item in the browser</div></div> <div class=\"help-row\"><div class=\"help-item\">help</div><div class=\"help-description\">Prints commands and options</div></div> <div class=\"help-row\"><div class=\"help-item\">sudo [command]</div><div class=\"help-description\">Executes the command as root</div></div><div class=\"help-row\"><div class=\"help-item\">exit</div><div class=\"help-description\">Exits the session</div></div> <!--<div class=\"help-row\"><div class=\"help-item\"></div><div class=\"help-description\"></div></div> -->");
+										$("#stdout").html("<div class=\"help-row\"><div class=\"help-item\">cd [dir]</div><div class=\"help-description\">Goes to the specified directory</div></div> <div class=\"help-row\"><div class=\"help-item\">pwd</div><div class=\"help-description\">Prints the path of the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">ls</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">cat [file]</div><div class=\"help-description\">Lists the items in the current directory</div></div> <div class=\"help-row\"><div class=\"help-item\">vi [file]</div><div class=\"help-description\">Opens a file for editing</div></div> <div class=\"help-row\"><div class=\"help-item\">open [item]</div><div class=\"help-description\">Opens an item in the browser</div></div> <div class=\"help-row\"><div class=\"help-item\">help</div><div class=\"help-description\">Prints commands and options</div></div> <div class=\"help-row\"><div class=\"help-item\">sudo [command]</div><div class=\"help-description\">Executes the command as root</div></div><div class=\"help-row\"><div class=\"help-item\">exit</div><div class=\"help-description\">Exits the session</div></div><div class=\"help-item\">clear</div><div class=\"help-description\">Clears previous commands</div></div> <!--<div class=\"help-row\"><div class=\"help-item\"></div><div class=\"help-description\"></div></div> -->");
 									break;
 									case "sudo":
 									case "su":
