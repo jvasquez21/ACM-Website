@@ -56,8 +56,7 @@
 						<div class="col-sm-7" style="font-size:24px;">
 							<p>
 								We think it's awesome to have snacks at meetings. Prizes, travel reimbursements, t-shirts,
-								and other cool benefits for ACM members are all funded by dues. Dues are just $10 per semester. We believe
-								that it's important to give back to members, so we use our funds to make ACM more awesome.
+								and other cool benefits for ACM members are all funded by dues. Dues are just $10 per semester. We spend all of our funds giving back to members and doing cool stuff.
 							</p>
 						</div>
 						<div class="col-sm-1">
