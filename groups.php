@@ -23,10 +23,9 @@
 							Linux
 						</h2>
 						<p>
-							The ACM Linux group is led by our projects chair, Chris Doege,
-							and consists of workshops and sessions on various linux topics for both beginners
-							and advanced students. The topics covered include shells,
-							scripting (bash, csh, python), security, C, and more.
+							The ACM Linux group consists of workshops and sessions
+							on various linux topics for both beginners and advanced students.
+							The topics covered include shells, scripting (bash, csh, python), security, C, and more.
 						</p>
 						<h3>Primary Contact</h3>
 						<p>

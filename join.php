@@ -18,13 +18,17 @@
 							<!-- content here! -->
 							<h1>Joining ACM</h1>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-								Membership in ACM UTSA is on a semester-basis.
-								There are only two simple membership requirements:
+								As the premier computer science organization at UTSA, joining ACM is one of the best
+								choices you can make to build your network (and your resume) outside
+								of the classroom. Extra-curricular activities are essential to getting your dream job
+								and creating a fulfilling college experience, and we're here to help.
+							</p>
+							<p>
+								There are only two steps to become a member of our chapter:
 							</p>
 							<ul>
 								<li>Attend our general meetings</li>
-								<li><a href="dues">Pay our membership dues</a></li>
+								<li><a href="dues">Pay our membership dues of $10.00 per semester</a></li>
 							</ul>
 							<p>
 								Once you pay your dues, you will become a full member of
