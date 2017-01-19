@@ -1,4 +1,5 @@
 <?php
+	/*
 	require_once('./config.php');
 	
 	$token  = $_POST['stripeToken'];
@@ -13,6 +14,7 @@
 		'amount' => 1000,
 		'currency' => 'usd'
 	));
+	*/
 ?>
 <!DOCTYPE html>
 <html>
@@ -27,7 +29,7 @@
 			require('common/menu.php');
 		?>
 		<div id="content" class="container">
-			<div class="row">
+			<div class="row section-container">
 				<div class="col-sm-12">
 					<!-- content here! -->
 					Payment Successful
