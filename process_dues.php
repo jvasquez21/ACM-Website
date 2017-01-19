@@ -1,5 +1,4 @@
 <?php
-	/*
 	require_once('./config.php');
 	
 	$token  = $_POST['stripeToken'];
@@ -14,7 +13,6 @@
 		'amount' => 1000,
 		'currency' => 'usd'
 	));
-	*/
 ?>
 <!DOCTYPE html>
 <html>
