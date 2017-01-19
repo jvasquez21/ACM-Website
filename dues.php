@@ -43,7 +43,11 @@
 									data-key="<?php echo $stripe['publishable_key']; ?>"
 									data-description="Dues for <?php echo($current_semester); ?>"
 									data-amount="1000"
-									data-locale="auto">
+									data-locale="auto"
+									data-label="Pay with Card or Bitcoin"
+									data-currency="usd"
+									data-bitcoin="true"
+									>
 								</script>
 							</form>
 						</div>

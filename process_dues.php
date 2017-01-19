@@ -30,10 +30,24 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<!-- content here! -->
-					Payment Successful
-					<br />
-					<br />
-					Thank you!
+					<div class="row partial-section-container">
+						<div class="col-sm-12 col-md-8">
+							<div class="partial-section">
+								Payment Successful
+								<br />
+								<br />
+								Thank you!
+								<br />
+								<br />
+								Please take a moment to enjoy the kitten picture.
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4" style="overflow:hidden;">
+							<div class="partial-section" style="max-height:300px;">
+								<img src="images/photos/min/Cute-kittens-12929201-1600-1200.jpg" style="max-width:120%;margin: -80px -30px -30px -30px;" alt="the kitten picture" title="the kitten picture" />
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
