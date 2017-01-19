@@ -38,8 +38,6 @@
 								Payment Successful
 								<br />
 								<br />
-								<br />
-								<br />
 								Thank you!
 								<br />
 								<br />
