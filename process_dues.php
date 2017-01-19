@@ -39,7 +39,7 @@
 								Thank you!
 								<br />
 								<br />
-								Please take a moment to enjoy the kitten picture.
+								Please take a moment to enjoy this kitten picture.
 							</div>
 						</div>
 						<div class="col-sm-12 col-md-4" style="overflow:hidden;">
