@@ -210,11 +210,78 @@ body {
 	background-color: #ffffff;
 }
 
+.partial-section-container {
+	/*padding: 40px 30px;*/
+	margin: 20px -15px 20px -15px;
+	/*box-shadow: 0px 1px 11px -3px;*/
+	/*border-radius: 3px;*/
+	/*background-color: #ffffff;*/
+}
+
+.partial-section-container>*[class*="col-"] {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	-webkit-flex-grow: 1;
+	flex-grow: 1;
+	-webkit-flex-shrink: 1;
+	flex-shrink: 1;
+	-webkit-flex-basis: 100%;
+	flex-basis: 100%;
+	padding: 0px 12px;
+}
+
+.partial-section {
+	padding: 30px;
+	margin: 0px;
+	box-shadow: 0px 1px 11px -3px;
+	border-radius: 3px;
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.partial-section>h3 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.partial-section-h-icon {
+	height: 30px;
+	margin: 0px 0px 15px 0px;
+}
+
 /* Section Titles */
 .section-container>*[class*="col-"]>h1, .section-container>*[class*="col-"]>h2, .section-container>*[class*="col-"]>h3, .section-container>*[class*="col-"]>h4, .section-container>*[class*="col-"]>h5, .section-container>*[class*="col-"]>h6 {
 	/* Indent section titles
 	margin: 0px 0px 20px 20px;
 	*/
+}
+
+@media (min-width: 768px) {
+	.partial-section-container {
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-direction: row;
+		flex-direction: row;
+		-webkit-align-items: stretch;
+		align-items: stretch;
+	}
+}
+
+@media (max-width: 767px) {
+	.partial-section-container {
+		text-align: center;
+	}
+	.partial-section {
+		margin: 0px 0px 20px 0px;
+		border-radius: 0px;
+	}
+	.section-container, .youtube-embed-container{
+		border-radius: 0px;
+	}
 }
 
 .nav > h1 {
@@ -274,6 +341,78 @@ input[type=image].slack-button:hover, input[type=image].slack-button:active {
 
 #about-page-tamuhacks-image>div.col-sm-12 {
 	height: 300px;
+}
+
+.youtube-embed-container {
+	padding: 0px;
+	margin: 20px 0px 20px 0px;
+	box-shadow: 0px 1px 11px -3px;
+	border-radius: 3px;
+}
+
+.youtube-embed-container>div {
+	padding: 0px;
+	margin: 0px;
+	border-radius: inherit;
+}
+
+@media (max-width: 767px){
+	.youtube-embed-container {
+		text-align: center;
+		box-shadow: 0px 0px 0px 0px #000;
+	}
+	.youtube-embed-container>div {
+		padding: 0px;
+		margin: 0px;
+		box-shadow: 0px 1px 11px -3px;
+		border-radius: 3px;
+		background-color: #ffffff;
+		display: inline-block;
+	}
+}
+
+.responsive-youtube-embed {
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	border-width: 0px;
+	display: block;
+	border-radius: inherit;
+}
+
+@media only screen and (min-width : 320px) {
+	.responsive-youtube-embed {
+		width: 320px;
+		height: 180px;
+	}
+}
+
+@media only screen and (min-width : 480px) {
+	.responsive-youtube-embed {
+		width: 480px;
+		height: 270px;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.responsive-youtube-embed {
+		width: 750px;
+		height: 421.875px;
+	}
+}
+
+@media only screen and (min-width : 992px) {
+	.responsive-youtube-embed {
+		width: 970px;
+		height: 545.625px;
+	}
+}
+
+@media only screen and (min-width : 1200px) {
+	.responsive-youtube-embed {
+		width: 1171px;
+		height: 658.6875px;
+	}
 }
 
 @media (max-width: 767px) {
