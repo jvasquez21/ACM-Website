@@ -167,6 +167,7 @@
 								-
 							</p>
 						</div>
+						<!--
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/andrew_bennett.jpg" class="officer-card-photo" />
@@ -183,6 +184,7 @@
 								</p>
 							</a>
 						</div>
+						-->
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/diego_romero.jpg" class="officer-card-photo" />
