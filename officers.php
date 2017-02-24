@@ -169,19 +169,17 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/andrew_bennett.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/melissa_gonzalez.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Public Relations Chair
 							</h3>
 							<h4 class="officer-card-name">
-								Andrew Bennett
+								Melissa Gonzalez
 							</h3>
-							<a href="mailto:abennett0322@gmail.com">
-								<p class="officer-card-email">
-									abennett0322@gmail.com
-								</p>
-							</a>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
