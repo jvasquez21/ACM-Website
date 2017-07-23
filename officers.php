@@ -105,6 +105,7 @@
 						Officers
 					</h1>
 					<div id="officer-cards-container">
+						<!--
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/shane_becker.jpg" class="officer-card-photo" />
@@ -225,11 +226,11 @@
 								</p>
 							</a>
 						</div>
+						-->
 						
-						<!--
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/trase_westbrook.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								President
@@ -245,7 +246,7 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/myka_hancevic.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Vice President
@@ -289,10 +290,10 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/soe_than.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Public Relations Chair
+								Public Relations Officer
 							</h3>
 							<h4 class="officer-card-name">
 								Soe Than
@@ -306,7 +307,7 @@
 								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Social Events Chair
+								Social Events Officer
 							</h3>
 							<h4 class="officer-card-name">
 								Luke Taylor
@@ -317,10 +318,10 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/andrew_hutton.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/andrew_hutton.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Media Chair
+								Media Officer
 							</h3>
 							<h4 class="officer-card-name">
 								Andrew Hutton
@@ -333,10 +334,10 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/brandon_kristian_bell.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/brandon_kristian_bell.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Projects Chair
+								Projects Officer
 							</h3>
 							<h4 class="officer-card-name">
 								Brandon Kristian Bell
@@ -345,7 +346,6 @@
 								-
 							</p>
 						</div>
-						-->
 						
 						<!--
 							<div class="officer-card">
