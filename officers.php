@@ -262,7 +262,7 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/dalton_sumrall.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Secretary
@@ -276,7 +276,7 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/julia_vasquez.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Treasurer
@@ -304,7 +304,7 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/luke_taylor.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
 								Social Events Officer
