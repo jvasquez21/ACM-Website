@@ -2,7 +2,7 @@
 	<div id="footer" class="container">
 		<div class="row">
 			<div class="col-sm-6" id="copyright-container">
-				Copyright &copy; 2016 ACM UTSA
+				Copyright &copy; <?php echo(date('Y')); ?> ACM UTSA
 			</div>
 			<div class="col-sm-6" id="social-media-container">
 				<div class="row" style="">
