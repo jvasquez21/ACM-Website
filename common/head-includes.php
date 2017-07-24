@@ -23,3 +23,6 @@
 		});
 	});
 </script>
+<?php
+	include('common/google-analytics.php');
+?>

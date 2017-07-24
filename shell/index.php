@@ -1,5 +1,8 @@
 <html>
 	<head>
+		<?php
+			include('../common/google-analytics.php');
+		?>
 		<style type="text/css">
 			body{
 				background-color: black;

@@ -105,6 +105,7 @@
 						Officers
 					</h1>
 					<div id="officer-cards-container">
+						<!--
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/shane_becker.jpg" class="officer-card-photo" />
@@ -225,15 +226,33 @@
 								</p>
 							</a>
 						</div>
-						<!-- <div class="officer-card">
+						-->
+						
+						<div class="officer-card">
 							<div class="officer-card-photo-container">
-								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								<img src="images/officer_photos/2017/trase_westbrook.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Officer
+								President
 							</h3>
 							<h4 class="officer-card-name">
-								First Last
+								Trase Westbrook
+							</h3>
+							<a href="mailto:acm.utsa@gmail.com">
+								<p class="officer-card-email">
+									acm.utsa@gmail.com
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/2017/myka_hancevic.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Vice President
+							</h3>
+							<h4 class="officer-card-name">
+								Myka Hancevic
 							</h3>
 							<a href="mailto:acm.utsa@gmail.com">
 								<p class="officer-card-email">
@@ -246,33 +265,106 @@
 								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Officer
+								Secretary
 							</h3>
 							<h4 class="officer-card-name">
-								First Last
+								Dalton Sumrall
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
-									acm.utsa@gmail.com
-								</p>
-							</a>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
-								Officer
+								Treasurer
 							</h3>
 							<h4 class="officer-card-name">
-								First Last
+								Julia Vasquez
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/2017/soe_than.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Public Relations Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Soe Than
+							</h3>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Social Events Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Luke Taylor
+							</h3>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/2017/andrew_hutton.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Media Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Andrew Hutton
+							</h3>
+							<a href="http://hutton.tech">
 								<p class="officer-card-email">
-									acm.utsa@gmail.com
+									hutton.tech
 								</p>
 							</a>
-						</div> -->
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/2017/brandon_kristian_bell.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								Projects Officer
+							</h3>
+							<h4 class="officer-card-name">
+								Brandon Kristian Bell
+							</h3>
+							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+								-
+							</p>
+						</div>
+						
+						<!--
+							<div class="officer-card">
+								<div class="officer-card-photo-container">
+									<img src="images/officer_photos/default.jpg" class="officer-card-photo" />
+								</div>
+								<h3 class="officer-card-title">
+									Officer
+								</h3>
+								<h4 class="officer-card-name">
+									First Last
+								</h3>
+								<a href="mailto:acm.utsa@gmail.com">
+									<p class="officer-card-email">
+										acm.utsa@gmail.com
+									</p>
+								</a>
+							</div>
+						-->
 					</div>
 				</div>
 			</div>

@@ -27,10 +27,12 @@
 							on various linux topics for both beginners and advanced students.
 							The topics covered include shells, scripting (bash, csh, python), security, C, and more.
 						</p>
+						<!--
 						<h3>Primary Contact</h3>
 						<p>
 							Chris Doege, <em>Group Leader</em>
 						</p>
+						-->
 						</div>
 					</div>
 					<div class="row section-container group">
@@ -41,9 +43,10 @@
 							<p>
 								The ACM Web Development group is dedicated to designing, developing, and
 								publishing the chapter's website and all associated web content.
-								<br>
+								<br />
 								For more information, join the <strong>#web-dev</strong> channel on Slack.
 							</p>
+							<!--
 							<h3>Meeting Times</h3>
 							<p>
 								Every Tuesday from 11:30am to 2:00pm in the CS Main Lab (Linux section)
@@ -54,6 +57,7 @@
 								<br>
 								Andrew Sanetra, <em>Media Chair</em>, <em>Lead Designer</em>
 							</p>
+							-->
 						</div>
 					</div>
 					<div class="row section-container group">
@@ -62,12 +66,14 @@
 							<p>
 								ACM-W aims to create an engaging academic, professional, and social network for women in technology. Our purpose is to connect students with leaders and encourage them to pursue career opportunities in computing fields and to mentor for academic and professional success.
 							</p>
+							<!--
 							<h3>Primary Contacts</h3>
 							<p>
 								Bridget Rios, <em>President</em>
 								<br>
 								Alifya Musa, <em>Vice-President</em>
 							</p>
+							-->
 						</div>
 					</div>
 					<div class="row section-container group">
@@ -87,10 +93,12 @@
 							<p>
 								For more information reach out to us to see how you can get involved.
 							</p>
+							<!--
 							<h3>Primary Contact</h3>
 							<p>
 								Andrew Benett, <em>RowdyHacks Coordinator</em>
 							</p>
+							-->
 						</div>
 					</div>
 					<div class="row section-container group">
