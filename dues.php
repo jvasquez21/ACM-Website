@@ -42,7 +42,7 @@
 								<script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
 									data-key="<?php echo $stripe['publishable_key']; ?>"
 									data-description="Dues for <?php echo($current_semester); ?>"
-									data-amount="1000"
+									data-amount="1500"
 									data-locale="auto"
 									data-label="Pay with Card or Bitcoin"
 									data-currency="usd"
@@ -60,7 +60,7 @@
 						<div class="col-sm-7" style="font-size:24px;">
 							<p>
 								We think it's awesome to have snacks at meetings. Prizes, travel reimbursements, t-shirts,
-								and other cool benefits for ACM members are all funded by dues. Dues are just $10 per semester. We spend all of our funds giving back to members and doing cool stuff.
+								and other cool benefits for ACM members are all funded by dues. Dues are just $15 per semester. We spend all of our funds giving back to members and doing cool stuff.
 							</p>
 						</div>
 						<div class="col-sm-1">
