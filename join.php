@@ -28,7 +28,7 @@
 							</p>
 							<ul>
 								<li>Attend our general meetings</li>
-								<li><a href="dues">Pay our membership dues of $10.00 per semester</a></li>
+								<li><a href="dues">Pay our membership dues of $15.00 per semester</a></li>
 							</ul>
 							<p>
 								Once you pay your dues, you will become a full member of
