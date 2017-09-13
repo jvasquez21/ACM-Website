@@ -66,7 +66,7 @@
 					padding: 10px;
 				}
 				.officer-card-title {
-					font-size: 22px;
+					font-size: 20px;
 					height: 38px
 				}
 				.officer-card-email {
