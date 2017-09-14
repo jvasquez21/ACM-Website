@@ -1,3 +1,68 @@
+<?php
+$from = $_POST['email'] . $_POST['m-email'];
+
+$text = $_POST['text'];
+$to = 'acm.utsa@gmail.com';
+$sender = $_POST['name'] . $_POST['m-email'];
+
+if(strlen($text) <= 1 || strlen($sender) <= 1 || strlen($from) <= 1){
+	die('Please complete all fields of the contact form.');
+}
+
+$recipient = 'ACM UTSA';
+if($_POST['recipient'] == 'president'){
+	$recipient = 'Trase Westbrook';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'vice-president'){
+	$recipient = 'Myka Hancevic';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'president'){
+	$recipient = 'Dalton Sumrall';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'treasurer'){
+	$recipient = 'Julia Vasquez';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'pr'){
+	$recipient = 'Soe Than';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'media'){
+	$recipient = 'Andrew Hutton';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'social'){
+	$recipient = 'Luke Taylor';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'projects'){
+	$recipient = 'Brandon Kristian Bell';
+	$to = 'acm.utsa@gmail.com';
+}
+else if($_POST['recipient'] == 'acmw-chair'){
+	$recipient = 'Cassidy Matousek';
+	$to = 'acm.utsa@gmail.com';
+}
+
+$body = 'Message from acm-utsa.org, sent by ' . htmlentities($sender) . '<br />Email: ' . htmlentities($_POST['email']) . '<br />For: '.htmlentities($recipient).'<br />Message: <br />' . htmlentities($text);
+
+$headers  = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$headers .= "From: " . $from . "\r\n"."X-Mailer: php";
+
+$stat = '';
+if(mail($to, 'Message on acm-utsa.org', $body, $headers)){
+	$stat = 'Your message has successfully been sent';
+}
+else{
+	$stat = 'Error: message failed to send';
+}
+
+header('Location: contact?stat='.rawurlencode($stat));
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -20,55 +85,12 @@
 				outline-style: none;
 				box-shadow: 0px 0px 0px 3px #204972;
 			}
-			/*
-			select::selection, input[type="text"]::selection, input[type="password"]::selection, textarea::selection {
-				background:#204972;
-				color: #FFFFFF;
-			}
-			*/
 		</style>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				<?php
-					if(isset($_GET['stat'])){
-						echo('$("#stat-modal").modal("show");');
-					}
-				?>
-			});
-		</script>
 	</head>
 	<body>
 		<?php
 			require('common/menu.php');
 		?>
-		<div class="modal fade" id="stat-modal" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<div type="button" class="close" data-dismiss="modal">&times;</div>
-						<h4 class="modal-title">
-							Thanks
-						</h4>
-					</div>
-					<div class="modal-body">
-						<p>
-							<?php
-								$stat = '';
-								if(isset($_GET['stat'])){
-									$stat = rawurldecode($_GET['stat']);
-								}
-								echo(htmlentities($stat));
-							?>
-						</p>
-					</div>
-					<!--
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					<div>
-					-->
-				</div>
-			</div>
-		</div>
 		<div id="content" class="container">
 			<div class="row">
 				<div class="col-sm-12">
