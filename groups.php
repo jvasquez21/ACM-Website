@@ -19,6 +19,22 @@
 					</p>
 					<div class="row section-container group">
 						<div class="col-sm-12">
+							<h2>ACM-W</h2>
+							<p>
+								ACM-W aims to create an engaging academic, professional, and social network for women in technology. Our purpose is to connect students with leaders and encourage them to pursue career opportunities in computing fields and to mentor for academic and professional success.
+							</p>
+							<!--
+							<h3>Primary Contacts</h3>
+							<p>
+								Bridget Rios, <em>President</em>
+								<br>
+								Alifya Musa, <em>Vice-President</em>
+							</p>
+							-->
+						</div>
+					</div>
+					<div class="row section-container group">
+						<div class="col-sm-12">
 						<h2>
 							Linux
 						</h2>
@@ -56,22 +72,6 @@
 								Andrew Hutton, <em>Group Leader</em>, <em>Lead Developer</em>
 								<br>
 								Andrew Sanetra, <em>Media Chair</em>, <em>Lead Designer</em>
-							</p>
-							-->
-						</div>
-					</div>
-					<div class="row section-container group">
-						<div class="col-sm-12">
-							<h2>ACM-W</h2>
-							<p>
-								ACM-W aims to create an engaging academic, professional, and social network for women in technology. Our purpose is to connect students with leaders and encourage them to pursue career opportunities in computing fields and to mentor for academic and professional success.
-							</p>
-							<!--
-							<h3>Primary Contacts</h3>
-							<p>
-								Bridget Rios, <em>President</em>
-								<br>
-								Alifya Musa, <em>Vice-President</em>
 							</p>
 							-->
 						</div>

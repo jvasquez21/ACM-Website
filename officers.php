@@ -48,9 +48,23 @@
         		background-color:green;
         		*/
         	}
-        	.officer-card-email {
+        	.officer-card-contact {
+        		display: inline-block;
         		padding: 0px;
         		margin: 5px;
+        		background-color: #204972;
+        		color: #FFFFFF;
+        		text-decoration: none;
+        		padding: 10px;
+        		border-radius: 2px;
+        		position: relative;
+        		top: 0px;
+        		box-shadow: 0px 0px 0px #000000;
+        	}
+        	.officer-card-contact:hover {
+        		position: relative;
+        		top: -5px;
+        		box-shadow: 0px 5px 10px -5px #000000;
         	}
         	#officer-cards-container {
         		text-align: center;
@@ -66,10 +80,10 @@
 					padding: 10px;
 				}
 				.officer-card-title {
-					font-size: 22px;
+					font-size: 20px;
 					height: 38px
 				}
-				.officer-card-email {
+				.officer-card-contact {
 					font-size: 14px;
 				}
 			}
@@ -117,7 +131,7 @@
 								Shane Becker
 							</h3>
 							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
+								<p class="officer-card-contact">
 									acm.utsa@gmail.com
 								</p>
 							</a>
@@ -133,7 +147,7 @@
 								Nishant Grover
 							</h3>
 							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
+								<p class="officer-card-contact">
 									acm.utsa@gmail.com
 								</p>
 							</a>
@@ -149,7 +163,7 @@
 								Andrew Hutton
 							</h3>
 							<a href="http://hutton.tech">
-								<p class="officer-card-email">
+								<p class="officer-card-contact">
 									hutton.tech
 								</p>
 							</a>
@@ -164,7 +178,7 @@
 							<h4 class="officer-card-name">
 								Jason Blig
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+							<p class="officer-card-contact" style="color:#fff;" onmouseover="this.style.color='#fff'">
 								-
 							</p>
 						</div>
@@ -178,7 +192,7 @@
 							<h4 class="officer-card-name">
 								Melissa Gonzalez
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+							<p class="officer-card-contact" style="color:#fff;" onmouseover="this.style.color='#fff'">
 								-
 							</p>
 						</div>
@@ -192,7 +206,7 @@
 							<h4 class="officer-card-name">
 								Diego Romero
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+							<p class="officer-card-contact" style="color:#fff;" onmouseover="this.style.color='#fff'">
 								-
 							</p>
 						</div>
@@ -206,7 +220,7 @@
 							<h4 class="officer-card-name">
 								Andrew Sanetra
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
+							<p class="officer-card-contact" style="color:#fff;" onmouseover="this.style.color='#fff'">
 								-
 							</p>
 						</div>
@@ -221,7 +235,7 @@
 								Chris Doege
 							</h3>
 							<a href="http://doege.pw">
-								<p class="officer-card-email">
+								<p class="officer-card-contact">
 									doege.pw
 								</p>
 							</a>
@@ -238,9 +252,9 @@
 							<h4 class="officer-card-name">
 								Trase Westbrook
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
-									acm.utsa@gmail.com
+							<a href="contact.php?position=president">
+								<p class="officer-card-contact">
+									Contact
 								</p>
 							</a>
 						</div>
@@ -254,9 +268,9 @@
 							<h4 class="officer-card-name">
 								Myka Hancevic
 							</h3>
-							<a href="mailto:acm.utsa@gmail.com">
-								<p class="officer-card-email">
-									acm.utsa@gmail.com
+							<a href="contact.php?position=vice-president">
+								<p class="officer-card-contact">
+									Contact
 								</p>
 							</a>
 						</div>
@@ -270,9 +284,11 @@
 							<h4 class="officer-card-name">
 								Dalton Sumrall
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
-								-
-							</p>
+							<a href="contact.php?position=secretary">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -284,9 +300,11 @@
 							<h4 class="officer-card-name">
 								Julia Vasquez
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
-								-
-							</p>
+							<a href="contact.php?position=treasurer">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -298,9 +316,11 @@
 							<h4 class="officer-card-name">
 								Soe Than
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
-								-
-							</p>
+							<a href="contact.php?position=pr">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -312,9 +332,11 @@
 							<h4 class="officer-card-name">
 								Luke Taylor
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
-								-
-							</p>
+							<a href="contact.php?position=social">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
@@ -326,9 +348,9 @@
 							<h4 class="officer-card-name">
 								Andrew Hutton
 							</h3>
-							<a href="http://hutton.tech">
-								<p class="officer-card-email">
-									hutton.tech
+							<a href="contact.php?position=media">
+								<p class="officer-card-contact">
+									Contact
 								</p>
 							</a>
 						</div>
@@ -342,9 +364,11 @@
 							<h4 class="officer-card-name">
 								Brandon Kristian Bell
 							</h3>
-							<p class="officer-card-email" style="color:#fff;" onmouseover="this.style.color='#fff'">
-								-
-							</p>
+							<a href="contact.php?position=projects">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
 						</div>
 						
 						<!--
@@ -359,7 +383,7 @@
 									First Last
 								</h3>
 								<a href="mailto:acm.utsa@gmail.com">
-									<p class="officer-card-email">
+									<p class="officer-card-contact">
 										acm.utsa@gmail.com
 									</p>
 								</a>
