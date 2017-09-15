@@ -1,5 +1,5 @@
 <?php
-$from = $_POST['email'] . $_POST['m-email'];
+$from = 'noreply@acm-utsa.org';
 
 $text = $_POST['text'];
 $to = 'acm.utsa@gmail.com';
@@ -53,15 +53,15 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $headers .= "From: " . $from . "\r\n"."X-Mailer: php";
 
-$stat = '';
+$message_stat = '';
 if(mail($to, 'Message on acm-utsa.org', $body, $headers)){
-	$stat = 'Your message has successfully been sent';
+	$message_stat = '1';
 }
 else{
-	$stat = 'Error: message failed to send';
+	$message_stat = '2';
 }
 
-header('Location: contact?stat='.rawurlencode($stat));
+header('Location: contact?message_stat='.rawurlencode($message_stat));
 ?>
 <!DOCTYPE html>
 <html>
@@ -105,8 +105,8 @@ header('Location: contact?stat='.rawurlencode($stat));
 									</p>
 								</div>
 								<div class="col-sm-4" style="text-align:center;">
-									<a href="http://acm-utsa.slack.com">
-										<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
+									<a class="link" href="slack_invite" target="_blank">
+										<input type="image" src="images/icons/add-to-slack.png" class="slack-button" style="outline-style: none;" />
 									</a>
 								</div>
 							</div>

@@ -38,15 +38,15 @@
 						</div>
 						<div class="col-sm-4 hidden-xs">
 							<div style="margin:120px 0px 0px 0px;text-align: center;">
-								<a href="http://acm-utsa.slack.com">
-									<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
+								<a class="link" href="slack_invite" target="_blank">
+									<input type="button" style="outline-style: none;" value="Request Slack Invite" />
 								</a>
 							</div>
 						</div>
 						<div class="col-sm-4 hidden-sm hidden-md hidden-lg hidden-xl">
 							<div style="margin:40px 0px 0px 0px;text-align: center;">
 								<a href="http://acm-utsa.slack.com">
-									<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
+									<input type="button" style="outline-style: none;" value="Request Slack Invite" />
 								</a>
 							</div>
 						</div>
