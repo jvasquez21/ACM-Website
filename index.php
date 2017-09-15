@@ -38,14 +38,14 @@
 						</div>
 						<div class="col-sm-4 hidden-xs">
 							<div style="margin:120px 0px 0px 0px;text-align: center;">
-								<a class="link" href="slack_invite" target="_blank">
+								<a class="link" href="slack_invite.php" target="_blank">
 									<input type="button" style="outline-style: none;" value="Request Slack Invite" />
 								</a>
 							</div>
 						</div>
 						<div class="col-sm-4 hidden-sm hidden-md hidden-lg hidden-xl">
 							<div style="margin:40px 0px 0px 0px;text-align: center;">
-								<a href="http://acm-utsa.slack.com">
+								<a href="slack_invite.php">
 									<input type="button" style="outline-style: none;" value="Request Slack Invite" />
 								</a>
 							</div>

@@ -97,7 +97,7 @@
 									</p>
 								</div>
 								<div class="col-sm-4" style="text-align:center;">
-									<a class="link" href="slack_invite" target="_blank">
+									<a class="link" href="slack_invite.php" target="_blank">
 										<input type="button" style="outline-style: none;" value="Request Slack Invite" />
 									</a>
 								</div>
