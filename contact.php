@@ -30,7 +30,7 @@
 		<script type="text/javascript">
 			$(document).ready(function(){
 				<?php
-					if(isset($_GET['stat'])){
+					if(isset($_GET['message_stat'])){
 						echo('$("#stat-modal").modal("show");');
 					}
 				?>
@@ -40,6 +40,22 @@
 	<body>
 		<?php
 			require('common/menu.php');
+			$message_stat = '';
+			$message_stat_title = '';
+			if(isset($_GET['message_stat'])){
+				if($_GET['message_stat'] == 1){
+					$message_stat_title = 'Thanks';
+					$message_stat = 'Your message has successfully been sent';
+				}
+				else if($_GET['message_stat'] == 2){
+					$message_stat_title = 'Error';
+					$message_stat = 'Error: message failed to send';
+				}
+				else{
+					$message_stat_title = 'Error';
+					$message_stat = 'Message Status: unknown';
+				}
+			}
 		?>
 		<div class="modal fade" id="stat-modal" role="dialog">
 			<div class="modal-dialog">
@@ -47,17 +63,15 @@
 					<div class="modal-header">
 						<div type="button" class="close" data-dismiss="modal">&times;</div>
 						<h4 class="modal-title">
-							Thanks
+							<?php
+								echo(htmlentities($message_stat_title));
+							?>
 						</h4>
 					</div>
 					<div class="modal-body">
 						<p>
 							<?php
-								$stat = '';
-								if(isset($_GET['stat'])){
-									$stat = rawurldecode($_GET['stat']);
-								}
-								echo(htmlentities($stat));
+								echo(htmlentities($message_stat));
 							?>
 						</p>
 					</div>
@@ -83,8 +97,8 @@
 									</p>
 								</div>
 								<div class="col-sm-4" style="text-align:center;">
-									<a href="http://acm-utsa.slack.com">
-										<input type="image" src="images/icons/add-to-slack.png" class="slack-button"/>
+									<a class="link" href="slack_invite" target="_blank">
+										<input type="button" style="outline-style: none;" value="Request Slack Invite" />
 									</a>
 								</div>
 							</div>
