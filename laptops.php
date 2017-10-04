@@ -26,7 +26,7 @@
 					-->
 					<div class="row section-container">
 						<div class="col-sm-12">
-							There are several options for new students to be able to use linux on their laptops. These are the three ways we reccommend. 
+							There are several options for new students to be able to use linux on their laptops. These are the three ways we recommend. 
 							<ol>
 								<li class="laptop-list-item">
 									<b>Buy a laptop with linux preinstalled.</b>
