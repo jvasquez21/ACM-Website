@@ -308,6 +308,22 @@
 						</div>
 						<div class="officer-card">
 							<div class="officer-card-photo-container">
+								<img src="images/officer_photos/2017/cassidy_matousek.jpg" class="officer-card-photo" />
+							</div>
+							<h3 class="officer-card-title">
+								ACM-W Chair
+							</h3>
+							<h4 class="officer-card-name">
+								Cassidy Matousek
+							</h3>
+							<a href="contact.php?position=acmw-chair">
+								<p class="officer-card-contact">
+									Contact
+								</p>
+							</a>
+						</div>
+						<div class="officer-card">
+							<div class="officer-card-photo-container">
 								<img src="images/officer_photos/2017/soe_than.jpg" class="officer-card-photo" />
 							</div>
 							<h3 class="officer-card-title">
