@@ -35,45 +35,65 @@
 					</div>
 					<div class="row section-container group">
 						<div class="col-sm-12">
-						<h2>
-							Linux
-						</h2>
-						<p>
-							The ACM Linux group consists of workshops and sessions
-							on various linux topics for both beginners and advanced students.
-							The topics covered include shells, scripting (bash, csh, python), security, C, and more.
-						</p>
-						<!--
-						<h3>Primary Contact</h3>
-						<p>
-							Chris Doege, <em>Group Leader</em>
-						</p>
-						-->
-						</div>
-					</div>
-					<div class="row section-container group">
-						<div class="col-sm-12">
 							<h2>
 								Web Development
 							</h2>
 							<p>
 								The ACM Web Development group is dedicated to designing, developing, and
-								publishing the chapter's website and all associated web content.
+								publishing the chapter's website and all associated web content. We also
+								encourage members to develop and work on their own projects.
 								<br />
 								For more information, join the <strong>#web-dev</strong> channel on Slack.
 							</p>
-							<!--
 							<h3>Meeting Times</h3>
 							<p>
-								Every Tuesday from 11:30am to 2:00pm in the CS Main Lab (Linux section)
+								Mondays from 3:00pm to 4:00pm in NPB 4.140
 							</p>
 							<h3>Primary Contacts</h3>
 							<p>
-								Andrew Hutton, <em>Group Leader</em>, <em>Lead Developer</em>
-								<br>
-								Andrew Sanetra, <em>Media Chair</em>, <em>Lead Designer</em>
+								Andrew Hutton, <em>Media Officer</em>
 							</p>
-							-->
+						</div>
+					</div>
+					<div class="row section-container group">
+						<div class="col-sm-12">
+							<h2>
+								Python
+							</h2>
+							<p>
+								The ACM Python group provides a place for members to practice and learn more 
+								about Python. Python is on the command line, on the web, in research; Python 
+								is everywhere.
+							</p>
+							<h3>Meeting Times</h3>
+							<p>
+								Tuesdays from 2:30pm to 3:30pm in NPB 4.140
+							</p>
+							<h3>Primary Contacts</h3>
+							<p>
+								Luke Taylor, <em>Social Events Officer</em>
+							</p>
+						</div>
+					</div>
+					<div class="row section-container group">
+						<div class="col-sm-12">
+							<h2>
+								AI Group
+							</h2>
+							<p>
+								ACM's Artificial Intelligence Group researces and shares new ideas on AI and 
+								machine learning, ranging from neural networks to game development. The group 
+								discusses how to integrate AI into new and old projects and, occasionally, how 
+								to prevent AI from taking over.
+							</p>
+							<h3>Meeting Times</h3>
+							<p>
+							Wednesdays from 2:00pm to 2:00pm in NPB 4.140
+							</p>
+							<h3>Primary Contacts</h3>
+							<p>
+								Trase Westbrook, <em>President</em>
+							</p>
 						</div>
 					</div>
 					<div class="row section-container group">
@@ -101,6 +121,7 @@
 							-->
 						</div>
 					</div>
+					<!--
 					<div class="row section-container group">
 						<div class="col-sm-12">
 							<h2>
@@ -118,6 +139,7 @@
 							</p>
 						</div>
 					</div>
+					-->
 				</div>
 			</div>
 		</div>
