@@ -26,7 +26,7 @@
 					-->
 					<div class="row section-container">
 						<div class="col-sm-12">
-							There are several options for new students to be able to use linux on their laptops. These are the three ways we recommend. 
+							There are several options for new students to be able to use linux on their laptops. These are the four options we recommend.
 							<ol>
 								<li class="laptop-list-item">
 									<b>Buy a laptop with linux preinstalled.</b>
@@ -37,14 +37,21 @@
 								<li class="laptop-list-item">
 									<b>Dual Boot.</b>
 									<br />
-									This will allow you to have both Windows and linux installed but is the most technical solution. You 
+									This will allow you to have both Windows and linux installed but is the most technical solution. You
         will need to format your hard drive into multiple partitions, and install linux on the new one. It may
         also require you to find and install drivers on linux.
 								</li>
 								<li class="laptop-list-item">
+									<b>Installing Virtual Box.</b>
+									<br />
+									If you are hesitant about the first two options.  Then installing virtual box will allow
+									you to have a linux, windows, or macOS environment. The main benefit is that you do not have to change
+									your current laptop environment.
+								</li>
+								<li class="laptop-list-item">
 									<b>SSH.</b>
 									<br />
-									This will allow you to ssh into the servers on campus, and maintain a persistent environment. The main 
+									This will allow you to ssh into the servers on campus, and maintain a persistent environment. The main
         issue is that it will be mostly command line programs that you can run.
 								</li>
 							</ol>
