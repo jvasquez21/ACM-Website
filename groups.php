@@ -21,7 +21,7 @@
 						<div class="col-sm-12">
 							<h2>ACM-W</h2>
 							<p>
-								ACM-W aims to create an engaging academic, professional, and social network for women in technology. Our purpose is to connect students with leaders and encourage them to pursue career opportunities in computing fields and to mentor for academic and professional success.
+								ACM-W aims to create an engaging academic, professional, and social network for women and minorities in technology. Our purpose is to connect students with leaders and encourage them to pursue career opportunities in computing fields and to mentor for academic and professional success.
 							</p>
 							<!--
 							<h3>Primary Contacts</h3>
@@ -88,7 +88,7 @@
 							</p>
 							<h3>Meeting Times</h3>
 							<p>
-							Wednesdays from 2:00pm to 2:00pm in NPB 4.140
+							Wednesdays from 2:00pm to 3:00pm in NPB 4.140
 							</p>
 							<h3>Primary Contacts</h3>
 							<p>
